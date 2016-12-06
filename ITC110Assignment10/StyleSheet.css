@@ -1,0 +1,58 @@
+﻿body {
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+h1 {
+    text-align:center;
+    padding: 1em;
+    margin:0;
+    background-color: red;
+}
+.left {
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+    
+}
+.right {
+    float: right;
+    //background-color: green;
+    width: 40%;
+    padding: 0 5%;
+}
+
+input[type='checkbox']{
+    display:inline-block
+}
+
+input[type="submit"]{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.8em;
+    font-size: 1.2em;
+    background-color:forestgreen;
+}
+p {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    display: block;
+    margin: 1em;
+    background-color: forestgreen;
+    padding: 1em;
+    text-align: center;
+}
+#summary {
+    width: 70%;
+    margin: 1em auto;
+    text-align: center;
+}
